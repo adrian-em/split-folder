@@ -3,7 +3,8 @@ from docopt import docopt
 import shutil
 import logging
 
-
+__version__ = '0.0.1'
+__author__ = 'aesptux'
 logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger(__name__)
 args = """
